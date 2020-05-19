@@ -1,0 +1,44 @@
+/*change brand font*/
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+color:#FFFFFF;
+font-size:22px;
+font-weight:bold;
+}
+/*change Navigation color*/
+.navbar #myMenu .custom-nav .nav-item a{
+color:#FFFFFF;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover {
+color:#CCCCCC;
+font-weight:bolder;
+}
+
+/*Make Header Image Responsive */
+.back-image{
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ min-height: 90vh;
+ border-radius: 0px;
+ margin-top: 58px;
+}
+
+/*Header Image sub title */
+  .font-italic{
+  font-size:24px;
+  }
+ /*Margin for Welcome to OSMS */
+ .mainHeading{
+  margin-top:120px;
+ }
+ @media only screen and (max-width: 600px){
+ 	.myClass{
+  	text-align:center;
+ 	}
+ }
+
+ .active {
+  color: white;
+  background-color: #007bff;
+}
